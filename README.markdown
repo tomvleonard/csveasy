@@ -8,14 +8,14 @@ file by processing a collection of arrays, where the first array is the header r
 ## Usage
 
 ### Reading 
-```require 'csveasy'
-Csveasy.read('file/path')
+```require 'csveasy'  
+Csveasy.read('file/path')  
 => [ { 'first' => 'Wilma', 'last' => 'Flintsone' }, { 'first' => 'Betty', 'last' => 'Rubble' } ]
 ```
 
 ### Write
-```require 'csveasy'
-data = [ [ 'first', 'last' ], [ 'Barney', 'Rubble' ], [ 'Fred', 'Flintstone' ] ]
+```require 'csveasy'  
+data = [ [ 'first', 'last' ], [ 'Barney', 'Rubble' ], [ 'Fred', 'Flintstone' ] ]  
 Csveasy.write('file/path', data)
 ```
 
