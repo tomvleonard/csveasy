@@ -14,7 +14,7 @@ Csveasy.read('file/path')
 => [ { 'first' => 'Wilma', 'last' => 'Flintsone' }, { 'first' => 'Betty', 'last' => 'Rubble' } ]
 ```
 
-### Write
+### Writing
 ```ruby
 require 'csveasy'  
 data = [ [ 'first', 'last' ], [ 'Barney', 'Rubble' ], [ 'Fred', 'Flintstone' ] ]  
