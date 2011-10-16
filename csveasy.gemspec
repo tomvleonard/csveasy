@@ -21,6 +21,5 @@ Gem::Specification.new do |s|
   # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"
   # s.add_runtime_dependency "rest-client"
-  s.add_development_dependency 'rspec', '>= 2.6.0'
-  s.add_runtime_dependency 'FasterCSV', '>= 1.5.4'
+  s.add_development_dependency 'mocha', '>= 0.9.8'
 end

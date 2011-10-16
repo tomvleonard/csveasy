@@ -1,12 +1,15 @@
 require './test/helper'
-require './lib/csveasy/writer'
+require './lib/csveasy'
+require 'mocha'
+require 'stringio'
 
 class WriteTest < Test::Unit::TestCase
 
-  include Writer
-
   def test_write
-    write('filename', ['data'])
+    filepath = 'some/filepath'
+    data = [ [ 'one', 'two' ], [ '1', '2' ] ]
+    CSV.expects(:open).with(filepath, 'wb')
+    Csveasy.write(filepath, data)
   end
 
 end
