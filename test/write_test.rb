@@ -1,7 +1,5 @@
 require './test/helper'
-require './lib/csveasy'
 require 'mocha'
-require 'stringio'
 
 class WriteTest < Test::Unit::TestCase
 

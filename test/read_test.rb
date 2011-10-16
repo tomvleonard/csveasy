@@ -1,5 +1,4 @@
 require './test/helper'
-require './lib/csveasy'
 
 class ReadTest < Test::Unit::TestCase
 
