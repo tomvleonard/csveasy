@@ -37,4 +37,4 @@ Csveasy.write('file/path', data)
 
 ### Requirements
 
->= Ruby 1.9.x (uses Ruby 1.9 CSV library)
+Ruby 1.9.x (uses Ruby 1.9 CSV library)
