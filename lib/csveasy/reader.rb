@@ -3,7 +3,7 @@ require 'csv'
 class Reader
 
   def initialize(filepath)
-   @filepath = filepath
+    @filepath = filepath
   end
 
   def read

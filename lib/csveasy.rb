@@ -10,8 +10,8 @@ module Csveasy
   end
 
   def self.write(filepath, data)
-     writer = Writer.new(filepath, data)
-     writer.write
+    writer = Writer.new(filepath, data)
+    writer.write
   end
 
 end

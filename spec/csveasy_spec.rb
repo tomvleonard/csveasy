@@ -28,7 +28,7 @@ describe Csveasy do
       end
 
       describe 'array hashes' do
-   
+
         it 'have the expected keys' do
           @result[0].keys.should == %w(first_name middle_name last_name)
         end

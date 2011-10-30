@@ -61,7 +61,7 @@ describe Writer do
     before do 
       @writer = Writer.new('', [])
     end
-   
+
     it 'returns true if @data is an array of arrays' do
       @writer.should_receive(:array_of?).with(Array).and_return(true)
       @writer.send(:valid_data?).should be_true
