@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Tom Leonard"]
   s.email       = ["tvleonard@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{A simple, easy-to-use CSV read/write tool.}
-  s.description = %q{Read a CSV file into an array of hashes. Write an array of arrays/hashes to a CSV file.}
+  s.summary     = %q{A simple CSV read/write gem.}
+  s.description = %q{Read or write a CSV file in one line }
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
