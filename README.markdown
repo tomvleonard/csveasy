@@ -27,23 +27,20 @@ data = Csveasy.read('file/path')
 ```ruby
 require 'csveasy'  
 
-header_row = [ 'header_1', 'header_2' ]
-data_rows = [ [ 'value_a', 'value_b' ], [ 'value_c', 'value_d' ] ]
-data = data_rows.insert(0, header_row)
-
+data = [ [ 'header_1', 'header_2' ], [ 'value_a', 'value_b' ], [ 'value_c', 'value_d' ] ]
 Csveasy.write('file/path', data)
 ```
 #### From an array of hashes
 ```ruby
 require 'csveasy'  
 
-data = [ { 'header_1' => 'value_a', 'header_2' => 'value_b' }, 
-         { 'header_1' => 'value_c', 'header_2' => 'value_d' } ]
+data = [ { 'header_1' => 'value_a', 'header_2' => 'value_b' },  { 'header_1' => 'value_c', 'header_2' => 'value_d' } ]
 
 Csveasy.write('file/path', data)
 ```
 #### Output
-```header_1,header_2
+```
+header_1,header_2
 value_a,value_b
 value_c,value_d
 ```
