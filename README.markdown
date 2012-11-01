@@ -2,7 +2,7 @@
 
 ## Description
 A ruby gem that reads and writes csv files. It reads a csv file and returns a collection 
-of hashes. It writes to a csv file by processing an array of arrays OR an array of uniform hashes.
+of hashes. It writes to a csv file by processing nested arrays OR a collection of uniform hashes.
 
 ## Usage
 
@@ -23,14 +23,14 @@ data = Csveasy.read('file/path')
 ```
 
 ### Writing
-#### From an array of arrays
+#### From nested arrays
 ```ruby
 require 'csveasy'  
 
 data = [ [ 'header_1', 'header_2' ], [ 'value_a', 'value_b' ], [ 'value_c', 'value_d' ] ]
 Csveasy.write('file/path', data)
 ```
-#### From an array of hashes
+#### From a collection of uniform hashes
 ```ruby
 require 'csveasy'  
 
